@@ -24,7 +24,10 @@ Code: pip install opencv-python cvzone
     Navigate to the project directory in your terminal. 
     Run the Python script
 
-**Code Explanation** 1. Import Libraries The script starts by importing the necessary libraries. OpenCV (cv2) is used for capturing video from the webcam, and cvzone.FaceDetectionModule provides an easy-to-use interface for face detection.
+**Code Explanation** 
+
+1. Import Libraries The script starts by importing the necessary libraries. OpenCV (cv2) is used for capturing video from the webcam, and cvzone.FaceDetectionModule provides an easy-to-use interface for face detection.
 2. Initialize Webcam and Face Detector The webcam is accessed using cv2.VideoCapture(0) where 0 is the index for the default webcam. A face detector object is created using FaceDetector() from cvzone. 
 3. Face Detection in Real-Time The while True loop reads the frames from the webcam and passes them to the face detector. The bounding boxes (bbox) are drawn around detected faces. 
 4. Display and Exit The detected faces are displayed in a window. Press 'q' to exit the application gracefully.
+
